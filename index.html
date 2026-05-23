@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sofia Quiroga — Productora Multimedia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Sofia Quiroga</div>
+  <ul class="nav-links">
+    <li><a href="#about">Sobre mí</a></li>
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#tools">Herramientas</a></li>
+    <li><a href="#works">Trabajos</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" class="mob-link">Sobre mí</a>
+  <a href="#services" class="mob-link">Servicios</a>
+  <a href="#tools" class="mob-link">Herramientas</a>
+  <a href="#works" class="mob-link">Trabajos</a>
+  <a href="#contact" class="mob-link">Contacto</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-glow"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">✦ Productora Multimedia ✦</p>
+    <h1 class="hero-name">Sofia<br>Quiroga</h1>
+    <p class="hero-subtitle">Especializada en el mundo audiovisual</p>
+    <p class="hero-desc">Creatividad, emoción y producción visual llevadas a otro nivel.</p>
+    <div class="hero-btns">
+      <a href="#works" class="btn-primary"><span>Ver proyectos</span></a>
+      <a href="#contact" class="btn-secondary">Contactarme</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal-left">
+      <div class="about-img-placeholder">
+        <div class="initials">SQ</div>
+        <p>Agrega aquí tu fotografía</p>
+      </div>
+      <div class="about-img-glow"></div>
+      <div class="about-frame"></div>
+    </div>
+    <div class="about-text reveal-right">
+      <p class="section-label">Sobre mí</p>
+      <h2 class="section-title">Una visión artística<br>con corazón</h2>
+      <div class="section-line"></div>
+      <p>Soy una chica que disfruta las líneas gráficas limpias y profesionales, pero con un toque dinámico y divertido. Soy responsable con cada proyecto y busco plasmar los gustos de mis clientes desde el corazón para sacar siempre el 100% de mi potencial, brindando resultados excelentes.</p>
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Compromiso</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">7+</div>
+          <div class="stat-label">Servicios</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Herramientas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header reveal">
+    <p class="section-label">Lo que hago</p>
+    <h2 class="section-title">Servicios</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal" style="transition-delay:0.05s">
+      <div class="service-icon">📷</div>
+      <h3 class="service-name">Fotografía</h3>
+      <p class="service-desc">Captura de momentos únicos con composición artística y ojo estético refinado.</p>
+      <div class="service-num">01</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.1s">
+      <div class="service-icon">🎬</div>
+      <h3 class="service-name">Producción Audiovisual</h3>
+      <p class="service-desc">Creación integral de contenido audiovisual desde la concept hasta el producto final.</p>
+      <div class="service-num">02</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.15s">
+      <div class="service-icon">🎥</div>
+      <h3 class="service-name">Dirección Audiovisual</h3>
+      <p class="service-desc">Dirección creativa y artística para proyectos visuales con visión cinematográfica.</p>
+      <div class="service-num">03</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.2s">
+      <div class="service-icon">✂️</div>
+      <h3 class="service-name">Edición de Video</h3>
+      <p class="service-desc">Postproducción profesional con narrativa fluida, color grading y efectos premium.</p>
+      <div class="service-num">04</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.25s">
+      <div class="service-icon">✦</div>
+      <h3 class="service-name">Creación de Marca</h3>
+      <p class="service-desc">Identidad visual coherente y memorable que comunica la esencia de tu marca.</p>
+      <div class="service-num">05</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.3s">
+      <div class="service-icon">🖥️</div>
+      <h3 class="service-name">Diseño Digital</h3>
+      <p class="service-desc">Piezas digitales con diseño limpio, moderno y alineado a tu identidad.</p>
+      <div class="service-num">06</div>
+    </div>
+    <div class="service-card reveal" style="transition-delay:0.35s">
+      <div class="service-icon">⚡</div>
+      <h3 class="service-name">Programación</h3>
+      <p class="service-desc">Desarrollo de soluciones digitales funcionales y estéticamente cuidadas.</p>
+      <div class="service-num">07</div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section id="tools">
+  <div class="tools-header reveal">
+    <p class="section-label">Mi stack</p>
+    <h2 class="section-title">Herramientas</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="tools-grid">
+    <div class="tool-card reveal" style="transition-delay:0.05s">
+      <span class="tool-icon">🌅</span>
+      <div class="tool-name">Lightroom</div>
+    </div>
+    <div class="tool-card reveal" style="transition-delay:0.1s">
+      <span class="tool-icon">🎨</span>
+      <div class="tool-name">Photoshop</div>
+    </div>
+    <div class="tool-card reveal" style="transition-delay:0.15s">
+      <span class="tool-icon">✒️</span>
+      <div class="tool-name">Illustrator</div>
+    </div>
+    <div class="tool-card reveal" style="transition-delay:0.2s">
+      <span class="tool-icon">🎞️</span>
+      <div class="tool-name">Premiere Pro</div>
+    </div>
+    <div class="tool-card reveal" style="transition-delay:0.25s">
+      <span class="tool-icon">🌀</span>
+      <div class="tool-name">After Effects</div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKS -->
+<section id="works">
+  <div class="works-header reveal">
+    <p class="section-label">Portfolio</p>
+    <h2 class="section-title">Mis trabajos</h2>
+    <div class="section-line"></div>
+  </div>
+ <div class="carousel-wrap reveal">
+  
+  <div class="carousel" id="carousel">
+    
+    <div class="carousel-track" id="carousel-track">
+
+      <div class="carousel-slide">
+         <a href="fotografia retrato.pdf" target="_blank" class="pdf-link">
+        <div class="slide-content">
+          <img src="img/Black White Minimal Alone Movie Poster.jpg" alt="Vista previa PDF">
+          <div class="slide-label">
+      <span>Ver PDF</span>
+    </div>
+        </div>
+        <div class="slide-label">
+          <span>Fotografía de retrato</span>
+        </div>
+      </div>
+</a>
+      <div class="carousel-slide">
+        <div class="slide-content">
+          <div class="slide-placeholder-icon">🎬</div>
+          <div class="slide-placeholder-text">
+            Producción audiovisual — Tu proyecto aquí
+          </div>
+        </div>
+        <div class="slide-label">
+          <span>Producción audiovisual</span>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <div class="slide-content">
+          <div class="slide-placeholder-icon">✦</div>
+          <div class="slide-placeholder-text">
+            Identidad de marca — Sube aquí tu imagen
+          </div>
+        </div>
+        <div class="slide-label">
+          <span>Branding & Marca</span>
+        </div>
+      </div>
+
+      <div class="carousel-slide">
+        <div class="slide-content">
+          <div class="slide-placeholder-icon">🖥️</div>
+          <div class="slide-placeholder-text">
+            Diseño digital — Tu proyecto aquí
+          </div>
+        </div>
+        <div class="slide-label">
+          <span>Diseño digital</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="carousel-btn prev" id="prev-btn">↑</button>
+  <button class="carousel-btn next" id="next-btn">↓</button>
+
+  <div class="carousel-dots" id="carousel-dots"></div>
+
+</div>
+<div class="video-section reveal">
+  <h3 class="video-title">Showreel & Videos</h3>
+  <div class="video-grid">
+
+    <!-- VIDEO 1 -->
+    <a class="video-slot"
+       href="video/Homenaje a Jose Barros.mp4"
+       target="_blank">
+      <video class="video-preview">
+        <source src="video/Homenaje a Jose Barros.mp4" type="video/mp4">
+      </video>
+      <div class="play-btn">▶</div>
+      <p>Reel principal</p>
+   </a>
+
+    <!-- VIDEO 2 -->
+    <a class="video-slot"
+       href="video/Spot publicitario para NutreCan.mp4"
+       target="_blank">
+
+       <!-- Vista previa --> <video class="video-preview" muted> <source src="video/Spot publicitario para NutreCan.mp4" type="video/mp4"> </video>
+      <div class="play-btn">▶</div>
+      <p>Producción audiovisual</p>
+    </a>
+
+    <!-- VIDEO 3 -->
+    <a class="video-slot"
+       href="video/video3.mp4"
+       target="_blank">
+      <div class="play-btn">▶</div>
+     <p>Behind the scenes</p>
+    </a>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div style="margin-bottom:3.5rem" class="reveal">
+      <p class="section-label">Hablemos</p>
+      <h2 class="section-title">Contacto</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <a href="https://wa.me/qr/OLGLNTKJXW4YH1" class="contact-link" target="_blank" rel="noopener">
+          <div class="contact-icon">💬</div>
+          <div class="contact-text">
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-value">Escríbeme directamente</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/d_quiroga7/" class="contact-link" target="_blank" rel="noopener">
+          <div class="contact-icon">📸</div>
+          <div class="contact-text">
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@d_quiroga7</span>
+          </div>
+        </a>
+        <a href="mailto:sofiaquiroga150708@gmail.com" class="contact-link">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-text">
+            <span class="contact-label">Correo</span>
+            <span class="contact-value">sofiaquiroga150708@gmail.com</span>
+          </div>
+        </a>
+      </div>
+      <div class="contact-form reveal-right">
+        <div class="form-group">
+          <label class="form-label" for="name">Nombre</label>
+          <input class="form-input" type="text" id="name" placeholder="Tu nombre">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Correo</label>
+          <input class="form-input" type="email" id="email" placeholder="tu@correo.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Mensaje</label>
+          <textarea class="form-textarea" id="message" placeholder="Cuéntame sobre tu proyecto..."></textarea>
+        </div>
+        <button class="form-submit" onclick="handleSubmit()">Enviar mensaje</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>Sofia Quiroga</span> — Productora Multimedia ✦ Todos los derechos reservados</p>
+</footer>
+
+<script>
+/* CURSOR */
+const cursor=document.getElementById('cursor');
+const ring=document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  cursor.style.left=mx-6+'px';cursor.style.top=my-6+'px';
+  // sparks
+  if(Math.random()<0.15){
+    const s=document.createElement('div');
+    s.className='cursor-spark';
+    s.style.left=mx+Math.random()*20-10+'px';
+    s.style.top=my+Math.random()*20-10+'px';
+    document.body.appendChild(s);
+    setTimeout(()=>s.remove(),600);
+  }
+});
+function animRing(){
+  rx+=(mx-rx)*0.12;ry+=(my-ry)*0.12;
+  ring.style.left=rx-18+'px';ring.style.top=ry-18+'px';
+  requestAnimationFrame(animRing);
+}animRing();
+document.querySelectorAll('a,button,.service-card,.tool-card,.video-slot,.contact-link,.carousel-btn,.dot').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(2.5)';ring.style.transform='scale(1.5)';ring.style.borderColor='rgba(230,154,195,0.6)'});
+  el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';ring.style.transform='scale(1)';ring.style.borderColor='rgba(230,154,195,0.4)'});
+});
+
+/* PARTICLES */
+const canvas=document.getElementById('particles-canvas');
+const ctx=canvas.getContext('2d');
+let W=canvas.width=window.innerWidth,H=canvas.height=window.innerHeight;
+window.addEventListener('resize',()=>{W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight});
+const particles=[];
+const N=80;
+function mkParticle(){
+  return{
+    x:Math.random()*W,y:Math.random()*H,
+    vx:(Math.random()-0.5)*0.4,vy:(Math.random()-0.5)*0.4,
+    r:Math.random()*1.5+0.3,
+    a:Math.random(),da:0.002+Math.random()*0.005,
+    color:Math.random()<0.5?'rgba(230,154,195,':'rgba(141,21,89,',
+    twinkle:Math.random()>0.7,
+  };
+}
+for(let i=0;i<N;i++)particles.push(mkParticle());
+function drawParticles(){
+  ctx.clearRect(0,0,W,H);
+  particles.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;
+    if(p.x<0)p.x=W;if(p.x>W)p.x=0;
+    if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+    if(p.twinkle){p.a+=p.da;if(p.a>1||p.a<0.1)p.da*=-1}
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=p.color+p.a+')';ctx.fill();
+    if(p.r>1){
+      ctx.beginPath();ctx.arc(p.x,p.y,p.r*3,0,Math.PI*2);
+      const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r*3);
+      g.addColorStop(0,p.color+(p.a*0.3)+')');g.addColorStop(1,'transparent');
+      ctx.fillStyle=g;ctx.fill();
+    }
+  });
+  requestAnimationFrame(drawParticles);
+}drawParticles();
+
+/* HAMBURGER */
+const ham=document.getElementById('hamburger');
+const mob=document.getElementById('mobile-menu');
+let open=false;
+ham.addEventListener('click',()=>{
+  open=!open;
+  mob.classList.toggle('open',open);
+  const spans=ham.querySelectorAll('span');
+  if(open){spans[0].style.transform='rotate(45deg) translate(4px,4px)';spans[1].style.opacity='0';spans[2].style.transform='rotate(-45deg) translate(4px,-4px)'}
+  else{spans[0].style.transform='';spans[1].style.opacity='1';spans[2].style.transform=''}
+});
+document.querySelectorAll('.mob-link').forEach(l=>l.addEventListener('click',()=>{
+  open=false;mob.classList.remove('open');
+  const spans=ham.querySelectorAll('span');
+  spans[0].style.transform='';spans[1].style.opacity='1';spans[2].style.transform='';
+}));
+
+/* SCROLL REVEAL */
+const reveals=document.querySelectorAll('.reveal,.reveal-left,.reveal-right');
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
+},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
+reveals.forEach(el=>obs.observe(el));
+
+/* CAROUSEL */
+const track = document.getElementById("carousel-track");
+const slides = document.querySelectorAll(".carousel-slide");
+
+let index = 0;
+
+function updateCarousel(){
+  const slideHeight = slides[0].clientHeight;
+
+  track.style.transform =
+    `translateY(-${index * slideHeight}px)`;
+}
+
+document.getElementById("next-btn").addEventListener("click", ()=>{
+  index = (index + 1) % slides.length;
+  updateCarousel();
+});
+
+document.getElementById("prev-btn").addEventListener("click", ()=>{
+  index = (index - 1 + slides.length) % slides.length;
+  updateCarousel();
+});
+
+slides.forEach((_,i)=>{
+  const d=document.createElement('div');
+  d.className='dot'+(i===0?' active':'');
+  d.addEventListener('click',()=>goTo(i));
+  dotsContainer.appendChild(d);
+});
+function goTo(n){
+  current=n;
+  track.style.transform=`translateX(-${current*100}%)`;
+  document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i===current));
+}
+document.getElementById('prev-btn').addEventListener('click',()=>goTo((current-1+total)%total));
+document.getElementById('next-btn').addEventListener('click',()=>goTo((current+1)%total));
+// auto
+let autoplay=setInterval(()=>goTo((current+1)%total),4000);
+track.addEventListener('mouseenter',()=>clearInterval(autoplay));
+track.addEventListener('mouseleave',()=>{autoplay=setInterval(()=>goTo((current+1)%total),4000)});
+// touch
+let touchStartX=0;
+track.addEventListener('touchstart',e=>{touchStartX=e.touches[0].clientX},{passive:true});
+track.addEventListener('touchend',e=>{
+  const dx=e.changedTouches[0].clientX-touchStartX;
+  if(Math.abs(dx)>50){dx<0?goTo((current+1)%total):goTo((current-1+total)%total)}
+});
+
+/* FORM */
+function handleSubmit(){
+  const n=document.getElementById('name').value;
+  const e=document.getElementById('email').value;
+  const m=document.getElementById('message').value;
+  if(!n||!e||!m){alert('Por favor completa todos los campos.');return}
+  const subject=encodeURIComponent('Proyecto con Sofia Quiroga');
+  const body=encodeURIComponent(`Hola Sofia,\n\nNombre: ${n}\nCorreo: ${e}\n\nMensaje:\n${m}`);
+  window.location.href=`mailto:sofiaquiroga150708@gmail.com?subject=${subject}&body=${body}`;
+}
+
+/* NAV SCROLL */
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').style.background=window.scrollY>50?'rgba(27,11,24,0.92)':'rgba(27,11,24,0.6)';
+});
+</script>
+</body>
+</html>
