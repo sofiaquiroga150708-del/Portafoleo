@@ -61,7 +61,7 @@
 <section id="about">
   <div class="about-grid">
     <div class="about-img-wrap reveal-left">
-      <div class="about-img-placeholder">
+      <div class="hero-image">
         <p><img class=about-img-placeholder src="img/foto perfil.jpeg" alt="Sofia Quiroga"></img></p>
       </div>
       <div class="about-img-glow"></div>
@@ -183,9 +183,9 @@
  <div class="carousel-wrap reveal">
   
   <div class="carousel" id="carousel">
+
     
     <div class="carousel-track" id="carousel-track">
-
       <div class="carousel-slide">
          <a href="fotografia retrato.pdf" target="_blank" class="pdf-link">
         <div class="slide-content">
@@ -232,33 +232,41 @@
 
   <button class="carousel-btn prev" id="prev-btn">↑</button>
   <button class="carousel-btn next" id="next-btn">↓</button>
-
   <div class="carousel-dots" id="carousel-dots"></div>
+
+
+
+</div>
 
 </div>
 <div class="video-section reveal">
-  <h3 class="video-title">Showreel & Videos</h3>
+  <h3 class="video-title">Videos</h3>
   <div class="video-grid">
 
-    <!-- VIDEO 1 -->
-    <a class="video-slot"
-       href="https://youtu.be/40TNdeE93BI"
-       target="_blank">
-      <video class="video-preview">
-        <source src="" type="video/mp4">
-      </video>
-      <div class="play-btn">▶</div>
-      <p>Reel principal</p>
-   </a>
+  <!-- VIDEO 1 -->
+<a class="video-slot"
+   href="https://youtu.be/40TNdeE93BI"
+   target="_blank">
+
+  <img 
+    class="video-preview"
+    src="https://img.youtube.com/vi/40TNdeE93BI/maxresdefault.jpg"
+    alt="Preview video">
+
+  <div class="play-btn">▶</div>
+
+</a>
 
     <!-- VIDEO 2 -->
     <a class="video-slot"
        href="https://youtu.be/VsBoU0GtN9s"
        target="_blank">
 
-       <!-- Vista previa --> <video class="video-preview" muted> <source src="  " type="video/mp4"> </video>
+        <img 
+    class="video-preview"
+    src="https://img.youtube.com/vi/VsBoU0GtN9s/hqdefault.jpg"
+    alt="Preview video">
       <div class="play-btn">▶</div>
-      <p>Producción audiovisual</p>
     </a>
 
     <!-- VIDEO 3 -->
@@ -266,7 +274,6 @@
        href="video/video3.mp4"
        target="_blank">
       <div class="play-btn">▶</div>
-     <p>Behind the scenes</p>
     </a>
   </div>
 </div>
@@ -418,6 +425,7 @@ const obs=new IntersectionObserver(entries=>{
 reveals.forEach(el=>obs.observe(el));
 
 /* CAROUSEL */
+
 const track = document.getElementById("carousel-track");
 const slides = document.querySelectorAll(".carousel-slide");
 
